@@ -1,0 +1,9 @@
+body {
+   background: linear-gradient($soft-violet, $soft-blue);
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   font-family: $font-family;
+   font-size: $font-size;
+}

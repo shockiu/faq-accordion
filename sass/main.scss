@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+@import "./abstract/variables";
+@import "./abstract/mixins";
+
+@import "./base/reset";
+@import "./base/body";
+
+@import "./components/accordoin";
+@import "./components/title";
+
+@import "./layout/hero";
+@import "./layout/footer";
+
+@import "./pages/faq";
