@@ -6,8 +6,24 @@
 
 .answer {
     display: none;
+    transition: all 1.2s;
+}
+
+.answer-show {
+    display: block;
+    padding-bottom: 1rem;
 }
 
 .higthligth {
     background-color: blue;
+}
+
+.arrow-down {
+    transition: all .8s;
+    padding: 0;
+    height: 20px;
+}
+
+.move-arrow {
+    transform: rotate(180deg);
 }

@@ -1,11 +1,16 @@
 .faq { 
     margin: 10rem 16rem 5rem 16rem;
-    height: 60vh;
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: white;
     border-radius: 25px;
+}
+
+.images-faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq-image {
@@ -17,15 +22,19 @@
     background-position-x: -410px;
     background-position-y: -200px;
 }
-
+/*
 .faq-image-woman {
-    position: absolute;
+    background-image: url('../../images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 160%;
+    position: relative;
     left: -88px;
     top: 30px
 }
+*/
 
 .faq-box {
-    position: fixed;
+    position: absolute;
     z-index: 2;
     top: 21.2rem;
     left: 6.5rem;

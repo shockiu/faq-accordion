@@ -1,14 +1,17 @@
 'use strict';
 
 const faqQuestion = document.getElementsByClassName('faq-question');
-
+const faqAsnwer = document.getElementsByClassName('faq-asnwer');
+const arrowDown = document.getElementsByClassName('arrow-down');
 
 for ( let i = 0; i < faqQuestion.length; i++ ) {
     faqQuestion[i].addEventListener('click', () => {
-        if(faqQuestion[i].classList.contains('higthligth')) {
-            faqQuestion[i].classList.remove('higthligth')
+        if(faqAsnwer[i].classList.contains('answer-show')) {
+            arrowDown[i].classList.remove('move-arrow');
+            faqAsnwer[i].classList.remove('answer-show');
         } else {
-            faqQuestion[i].classList.add('higthligth');
+            faqAsnwer[i].classList.add('answer-show');
+            arrowDown[i].classList.add('move-arrow')
         }
         
     })
